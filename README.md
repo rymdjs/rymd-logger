@@ -1,6 +1,6 @@
-# Sample module project
+# Rymd Logger
 
-A sample Javascript module with folder structure, tests, and more.
+A simple logger module that filters on log levels and calling modules.
 
 ## Build tasks
 
