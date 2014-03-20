@@ -23,6 +23,7 @@ describe("Logger", function() {
 		logger.separator();
 
 		Logger.view("TestModule2")
+
 		logger.debug("Test")
 		logger2.debug("Test 2")
 	})
