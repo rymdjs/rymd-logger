@@ -26,5 +26,12 @@ describe("Logger", function() {
 
 		logger.debug("Test")
 		logger2.debug("Test 2")
+
+		logger.separator()
+
+		Logger.view()
+		Logger.filter(Logger.Levels.LEVEL_GLOBAL)
+		logger.debug("This should not be seen")
+		logger.global("This should be seen")
 	})
 })
